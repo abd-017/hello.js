@@ -1,0 +1,10 @@
+// 1. VARIABLE
+const name = "Arjun";
+// 2. FUNCTION
+function greet(person) {
+return "Hello, " + person + "! Welcome to Nexora.";
+}
+// 3. LOOP
+const students = ["Arjun", "Priya", "Rohan"];
+for (let i = 0; i < students.length; i++) {
+console.log( greet(students[i]) ); }
